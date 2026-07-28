@@ -20,7 +20,7 @@ export default function Header() {
       <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="flex flex-col leading-tight">
           <span className="text-base font-bold" style={{ color: '#6B4530' }}>{siteConfig.psicologa.nome}</span>
-          <span className="text-[10px] font-semibold tracking-widest uppercase" style={{ color: '#C17845' }}>Foco em Ansiedade</span>
+          <span className="text-[10px] font-semibold tracking-widest uppercase" style={{ color: '#D98C5A' }}>Foco em Ansiedade</span>
         </Link>
 
         <ul className="hidden md:flex items-center gap-8">
@@ -37,8 +37,8 @@ export default function Header() {
           href={WA}
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden md:inline-block text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition hover:opacity-90"
-          style={{ backgroundColor: '#C17845' }}
+          className="hidden md:inline-block text-sm font-semibold px-5 py-2.5 rounded-lg transition hover:opacity-90"
+          style={{ backgroundColor: '#D98C5A', color: '#3E2B22' }}
         >
           Agendar Consulta
         </a>
@@ -58,8 +58,8 @@ export default function Header() {
             </Link>
           ))}
           <a href={WA} target="_blank" rel="noopener noreferrer"
-            className="text-white text-sm font-semibold px-5 py-2.5 rounded-lg text-center"
-            style={{ backgroundColor: '#C17845' }}>
+            className="text-sm font-semibold px-5 py-2.5 rounded-lg text-center"
+            style={{ backgroundColor: '#D98C5A', color: '#3E2B22' }}>
             Agendar Consulta
           </a>
         </div>

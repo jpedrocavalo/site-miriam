@@ -3,9 +3,9 @@
 @layer base {
   :root {
     --brown:        #6B4530;
-    --brown-mid:    #5A4232;
-    --terracotta:      #C17845;
-    --terracotta-dark: #A35F34;
+    --brown-mid:    #D9C3A6;
+    --terracotta:      #D98C5A;
+    --terracotta-dark: #D98C5A;
     --section:      #F3E8DA;
   }
 

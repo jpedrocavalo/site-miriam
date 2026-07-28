@@ -31,12 +31,12 @@ export default function QuandoBuscar() {
       <div className="max-w-6xl mx-auto">
 
         <div className="text-center mb-14">
-          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#C17845' }}>
+          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#D98C5A' }}>
             Ansiedade em Adultos
           </span>
           <h2 className="text-3xl md:text-4xl font-bold leading-tight mb-5 max-w-3xl mx-auto" style={{ color: '#6B4530' }}>
             Quando a ansiedade pede{' '}
-            <span style={{ color: '#C17845' }}>apoio profissional</span>
+            <span style={{ color: '#D98C5A' }}>apoio profissional</span>
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto leading-relaxed">
             Nem sempre é simples perceber sozinho o quanto a ansiedade está pesando na vida adulta. Um olhar especializado ajuda a organizar o que parece confuso e a orientar os próximos passos com mais segurança.
@@ -49,7 +49,7 @@ export default function QuandoBuscar() {
               key={card.titulo}
               className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition"
             >
-              <div className="w-8 h-1 rounded-full mb-5" style={{ backgroundColor: '#C17845' }} />
+              <div className="w-8 h-1 rounded-full mb-5" style={{ backgroundColor: '#D98C5A' }} />
               <h3 className="text-sm font-bold mb-3 leading-snug" style={{ color: '#6B4530' }}>{card.titulo}</h3>
               <p className="text-xs text-gray-500 leading-relaxed">{card.descricao}</p>
             </div>

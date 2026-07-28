@@ -32,7 +32,7 @@ export default function ComoFunciona() {
 
         {/* Esquerda */}
         <div>
-          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#C17845' }}>
+          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#D98C5A' }}>
             Processo
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-snug" style={{ color: '#6B4530' }}>
@@ -45,8 +45,8 @@ export default function ComoFunciona() {
             href={WA}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block text-white font-semibold px-7 py-3.5 rounded-lg transition hover:opacity-90"
-            style={{ backgroundColor: '#C17845' }}
+            className="inline-block font-semibold px-7 py-3.5 rounded-lg transition hover:opacity-90"
+            style={{ backgroundColor: '#D98C5A', color: '#3E2B22' }}
           >
             Quero começar
           </a>
@@ -58,7 +58,7 @@ export default function ComoFunciona() {
             <div key={passo.numero} className="flex gap-5 items-start py-5" style={{ borderBottom: i < passos.length - 1 ? '1px solid #f0f0f0' : 'none' }}>
               <div
                 className="flex-shrink-0 w-11 h-11 rounded-full font-bold text-sm flex items-center justify-center"
-                style={{ backgroundColor: 'rgba(193,120,69,0.1)', color: '#C17845', border: '1px solid rgba(193,120,69,0.3)' }}
+                style={{ backgroundColor: 'rgba(217,140,90,0.1)', color: '#D98C5A', border: '1px solid rgba(217,140,90,0.3)' }}
               >
                 {passo.numero}
               </div>

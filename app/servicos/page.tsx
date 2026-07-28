@@ -60,7 +60,7 @@ export default function Servicos() {
 
       <section style={{ backgroundColor: '#F3E8DA' }} className="py-20 px-6">
         <div className="max-w-4xl mx-auto text-center mb-14">
-          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#C17845' }}>
+          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#D98C5A' }}>
             O que ofereço
           </span>
           <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#6B4530' }}>Serviços</h1>
@@ -71,7 +71,7 @@ export default function Servicos() {
 
         {/* Tratamento de Ansiedade em Adultos */}
         <div className="max-w-5xl mx-auto bg-white rounded-2xl p-8 md:p-10 border border-gray-100 shadow-sm mb-8">
-          <div className="w-10 h-1 rounded-full mb-5" style={{ backgroundColor: '#C17845' }} />
+          <div className="w-10 h-1 rounded-full mb-5" style={{ backgroundColor: '#D98C5A' }} />
           <h2 className="text-2xl font-bold mb-3" style={{ color: '#6B4530' }}>Tratamento de Ansiedade em Adultos</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
             Sessões individuais com escuta qualificada e acolhimento, com foco no tratamento da ansiedade na vida adulta — sem deixar de lado outros temas que estejam pesando, como depressão, autoestima e relacionamentos.
@@ -79,7 +79,7 @@ export default function Servicos() {
           <ul className="grid grid-cols-2 gap-3 mb-10">
             {['Sessões de 50 minutos', 'Presencial ou online', 'Atendimento semanal ou quinzenal', 'Sigilo e ética profissional'].map(d => (
               <li key={d} className="flex items-center gap-2 text-sm text-gray-700">
-                <span className="w-1.5 h-1.5 rounded-full inline-block shrink-0" style={{ backgroundColor: '#C17845' }} />
+                <span className="w-1.5 h-1.5 rounded-full inline-block shrink-0" style={{ backgroundColor: '#D98C5A' }} />
                 {d}
               </li>
             ))}
@@ -98,7 +98,7 @@ export default function Servicos() {
             ))}
           </div>
 
-          <blockquote className="pl-5" style={{ borderLeft: '4px solid #C17845' }}>
+          <blockquote className="pl-5" style={{ borderLeft: '4px solid #D98C5A' }}>
             <p className="text-gray-700 italic leading-relaxed text-sm">
               &ldquo;Você não precisa estar em crise para buscar terapia. Cuidar de si é um ato de coragem.&rdquo;
             </p>
@@ -107,7 +107,7 @@ export default function Servicos() {
 
         {/* Atendimento Online */}
         <div className="max-w-5xl mx-auto bg-white rounded-2xl p-8 md:p-10 border border-gray-100 shadow-sm">
-          <div className="w-10 h-1 rounded-full mb-5" style={{ backgroundColor: '#C17845' }} />
+          <div className="w-10 h-1 rounded-full mb-5" style={{ backgroundColor: '#D98C5A' }} />
           <h2 className="text-2xl font-bold mb-3" style={{ color: '#6B4530' }}>Atendimento Online</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
             Toda a qualidade da terapia presencial, de onde você estiver. As sessões online são realizadas por videochamada em plataformas seguras e de fácil acesso.
@@ -115,7 +115,7 @@ export default function Servicos() {
           <ul className="grid grid-cols-2 gap-3 mb-10">
             {['Videochamada em plataforma segura', 'Atende todo o Brasil', 'Flexibilidade de horários', 'Mesma qualidade do presencial'].map(d => (
               <li key={d} className="flex items-center gap-2 text-sm text-gray-700">
-                <span className="w-1.5 h-1.5 rounded-full inline-block shrink-0" style={{ backgroundColor: '#C17845' }} />
+                <span className="w-1.5 h-1.5 rounded-full inline-block shrink-0" style={{ backgroundColor: '#D98C5A' }} />
                 {d}
               </li>
             ))}

@@ -61,7 +61,7 @@ function AvatarInitials({ name }: { name: string }) {
   return (
     <div
       className="w-10 h-10 rounded-full font-bold text-sm flex items-center justify-center shrink-0"
-      style={{ backgroundColor: 'rgba(193,120,69,0.12)', color: '#A35F34' }}
+      style={{ backgroundColor: 'rgba(217,140,90,0.12)', color: '#D98C5A' }}
     >
       {initials}
     </div>
@@ -99,7 +99,7 @@ function ReviewCard({ review }: { review: Review }) {
           <button
             onClick={() => setExpanded(!expanded)}
             className="mt-2 text-xs font-semibold hover:opacity-70 transition"
-            style={{ color: '#C17845' }}
+            style={{ color: '#D98C5A' }}
           >
             {expanded ? 'Ler menos ↑' : 'Ler mais ↓'}
           </button>
@@ -115,7 +115,7 @@ export default function Depoimentos() {
       <div className="max-w-5xl mx-auto">
 
         <div className="text-center mb-12">
-          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#C17845' }}>
+          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#D98C5A' }}>
             Depoimentos
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#6B4530' }}>

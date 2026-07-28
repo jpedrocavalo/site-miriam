@@ -21,12 +21,12 @@ export default function QuemSou() {
 
         {/* Esquerda — texto */}
         <div>
-          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#C17845' }}>
+          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#D98C5A' }}>
             Sobre mim
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-snug" style={{ color: '#6B4530' }}>
             Olá, sou a{' '}
-            <span style={{ color: '#C17845' }}>Miriam Torquato</span>
+            <span style={{ color: '#D98C5A' }}>Miriam Torquato</span>
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
             Psicóloga clínica especialista em ansiedade em adultos, com 9 anos de experiência em Terapia Cognitiva Comportamental (TCC). Acredito que cada pessoa carrega uma história única — e que a terapia é um espaço para compreender, acolher e transformar essa história.
@@ -35,7 +35,7 @@ export default function QuemSou() {
             Meu foco é o público adulto que convive com ansiedade — do dia a dia a quadros mais intensos como TAG, pânico e ansiedade social — sempre com base científica e muito acolhimento.
           </p>
 
-          <blockquote className="pl-5 mb-10" style={{ borderLeft: '4px solid #C17845' }}>
+          <blockquote className="pl-5 mb-10" style={{ borderLeft: '4px solid #D98C5A' }}>
             <p className="text-gray-700 italic text-sm leading-relaxed">
               &ldquo;A terapia não muda o que aconteceu — ela muda a forma como você se relaciona com isso.&rdquo;
             </p>
@@ -68,9 +68,9 @@ export default function QuemSou() {
 
           <div className="grid grid-cols-3 gap-3">
             {stats.map(s => (
-              <div key={s.valor} className="text-center p-4 rounded-xl text-white" style={{ backgroundColor: '#8B5A3C' }}>
-                <p className="text-base font-bold leading-tight whitespace-pre-line" style={{ color: '#C17845' }}>{s.valor}</p>
-                <p className="text-xs text-gray-300 mt-1 leading-snug whitespace-pre-line">{s.label}</p>
+              <div key={s.valor} className="text-center p-4 rounded-xl" style={{ backgroundColor: '#EDD9BC' }}>
+                <p className="text-base font-bold leading-tight whitespace-pre-line" style={{ color: '#6B4530' }}>{s.valor}</p>
+                <p className="text-xs mt-1 leading-snug whitespace-pre-line" style={{ color: '#8A6A52' }}>{s.label}</p>
               </div>
             ))}
           </div>

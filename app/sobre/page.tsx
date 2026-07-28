@@ -55,9 +55,9 @@ export default function Sobre() {
           <div>
             <span
               className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full mb-8"
-              style={{ color: '#A35F34', backgroundColor: 'rgba(193,120,69,0.12)' }}
+              style={{ color: '#D98C5A', backgroundColor: 'rgba(217,140,90,0.12)' }}
             >
-              <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ backgroundColor: '#C17845' }} />
+              <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ backgroundColor: '#D98C5A' }} />
               Sobre mim
             </span>
             <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#6B4530' }}>
@@ -73,8 +73,8 @@ export default function Sobre() {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block text-white font-semibold px-7 py-3.5 rounded-lg transition hover:opacity-90"
-              style={{ backgroundColor: '#C17845' }}
+              className="inline-block font-semibold px-7 py-3.5 rounded-lg transition hover:opacity-90"
+              style={{ backgroundColor: '#D98C5A', color: '#3E2B22' }}
             >
               Agendar consulta →
             </a>
@@ -96,15 +96,15 @@ export default function Sobre() {
       </section>
 
       {/* O que me motiva */}
-      <section style={{ backgroundColor: '#8B5A3C' }} className="py-20 px-6">
+      <section style={{ backgroundColor: '#EDD9BC' }} className="py-20 px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#C17845' }}>
+          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#D98C5A' }}>
             O que me motiva
           </span>
-          <p className="text-2xl md:text-3xl text-white leading-snug font-medium">
+          <p className="text-2xl md:text-3xl leading-snug font-medium" style={{ color: '#6B4530' }}>
             Escolhi me especializar em ansiedade porque vi de perto o quanto ela pode limitar a vida adulta de alguém em silêncio. Ver uma pessoa sair de um lugar de alerta constante para um lugar de clareza e leveza é o que me move todos os dias.
           </p>
-          <p className="text-gray-300 leading-relaxed mt-6">
+          <p className="leading-relaxed mt-6" style={{ color: '#8A6A52' }}>
             Cuidar de você não é fraqueza — é o começo de tudo.
           </p>
         </div>
@@ -114,7 +114,7 @@ export default function Sobre() {
       <section className="bg-white py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#C17845' }}>
+            <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#D98C5A' }}>
               O que me guia
             </span>
             <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#6B4530' }}>
@@ -124,7 +124,7 @@ export default function Sobre() {
           <div className="grid md:grid-cols-3 gap-6">
             {pilares.map(p => (
               <div key={p.titulo} className="rounded-2xl p-7 border border-gray-100 shadow-sm" style={{ backgroundColor: '#F3E8DA' }}>
-                <div className="w-10 h-1 rounded-full mb-5" style={{ backgroundColor: '#C17845' }} />
+                <div className="w-10 h-1 rounded-full mb-5" style={{ backgroundColor: '#D98C5A' }} />
                 <h3 className="text-base font-bold mb-3 leading-snug" style={{ color: '#6B4530' }}>{p.titulo}</h3>
                 <p className="text-sm text-gray-500 leading-relaxed">{p.descricao}</p>
               </div>
@@ -137,7 +137,7 @@ export default function Sobre() {
       <section style={{ backgroundColor: '#F3E8DA' }} className="py-24 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-14">
-            <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#C17845' }}>
+            <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#D98C5A' }}>
               Como eu faço
             </span>
             <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#6B4530' }}>
@@ -149,7 +149,7 @@ export default function Sobre() {
               <div key={c.numero} className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm flex gap-5 items-start">
                 <div
                   className="flex-shrink-0 w-11 h-11 rounded-full font-bold text-sm flex items-center justify-center"
-                  style={{ backgroundColor: 'rgba(193,120,69,0.1)', color: '#C17845', border: '1px solid rgba(193,120,69,0.3)' }}
+                  style={{ backgroundColor: 'rgba(217,140,90,0.1)', color: '#D98C5A', border: '1px solid rgba(217,140,90,0.3)' }}
                 >
                   {c.numero}
                 </div>
@@ -173,8 +173,8 @@ export default function Sobre() {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white px-8 py-3.5 rounded-lg font-semibold transition hover:opacity-90"
-              style={{ backgroundColor: '#C17845' }}
+              className="px-8 py-3.5 rounded-lg font-semibold transition hover:opacity-90"
+              style={{ backgroundColor: '#D98C5A', color: '#3E2B22' }}
             >
               Falar pelo WhatsApp →
             </a>

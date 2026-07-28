@@ -31,11 +31,11 @@ export default function ComoAjudar() {
       <div className="max-w-6xl mx-auto">
 
         <div className="text-center mb-14">
-          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#C17845' }}>
+          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#D98C5A' }}>
             Minha especialidade
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-5 max-w-2xl mx-auto" style={{ color: '#6B4530' }}>
-            Tipos de <span style={{ color: '#C17845' }}>ansiedade em adultos</span> que trabalho
+            Tipos de <span style={{ color: '#D98C5A' }}>ansiedade em adultos</span> que trabalho
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto leading-relaxed">
             Sou psicóloga especialista no tratamento de ansiedade na vida adulta. Conheça alguns dos quadros mais comuns que atendo em consultório.
@@ -48,7 +48,7 @@ export default function ComoAjudar() {
               key={s.titulo}
               className="group bg-white rounded-2xl p-7 border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all"
             >
-              <div className="w-10 h-1 rounded-full mb-5" style={{ backgroundColor: '#C17845' }} />
+              <div className="w-10 h-1 rounded-full mb-5" style={{ backgroundColor: '#D98C5A' }} />
               <h3 className="text-base font-bold mb-3 leading-snug" style={{ color: '#6B4530' }}>{s.titulo}</h3>
               <p className="text-sm text-gray-500 leading-relaxed">{s.descricao}</p>
             </div>

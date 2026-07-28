@@ -11,11 +11,11 @@ export default function FAQ() {
       <div className="max-w-3xl mx-auto">
 
         <div className="text-center mb-14">
-          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#C17845' }}>
+          <span className="text-xs font-semibold tracking-widest uppercase mb-4 block" style={{ color: '#D98C5A' }}>
             Dúvidas frequentes
           </span>
           <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#6B4530' }}>
-            Perguntas <span style={{ color: '#C17845' }}>frequentes</span>
+            Perguntas <span style={{ color: '#D98C5A' }}>frequentes</span>
           </h2>
         </div>
 
@@ -37,8 +37,8 @@ export default function FAQ() {
                   <span
                     className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold transition-transform"
                     style={{
-                      backgroundColor: 'rgba(193,120,69,0.12)',
-                      color: '#C17845',
+                      backgroundColor: 'rgba(217,140,90,0.12)',
+                      color: '#D98C5A',
                       transform: isOpen ? 'rotate(45deg)' : 'rotate(0deg)',
                     }}
                   >
